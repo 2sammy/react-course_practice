@@ -25,7 +25,7 @@ List.PropTypes= {
     items : PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number,
         name: PropTypes.string,
-        calories:PropTypes.number
+        calories:PropTypes
     })),
 }
 
