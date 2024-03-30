@@ -1,4 +1,5 @@
 import React from 'react'
+import { PropTypes } from 'prop-types';
 
 export default function List(props) {
     const itemList = props.items;
@@ -19,6 +20,19 @@ export default function List(props) {
   )
     }
 
+List.PropTypes= {
+    category: PropTypes.string,
+    items : PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.number,
+        name: PropTypes.string,
+        calories:PropTypes.number
+    })),
+}
+
+List.defaultProps = {
+    category: " Category",
+    items : [],
+}
 
 
 

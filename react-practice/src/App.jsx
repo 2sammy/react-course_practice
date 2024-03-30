@@ -13,8 +13,12 @@ const vegetables =  [{id : 6, name:"potatoes", calories:110},
                     {id: 9, name : "corn", calories: 63},
                     {id: 10, name: "broccoli", calories: 50}
 ];
-  return(<List  items={fruits} category="fruits"/>)
-
+  return(
+    <>
+  {fruits.length> 0 && <List  items={fruits} category="fruits"/>}
+{vegetables.lenghth> 0 && <List  items={vegetables} category="Vegetables"/> }
+  </>
+)
   
 }
 
