@@ -1,11 +1,11 @@
-import ColorPicker from "./ColorPicker";
-import Counter from "./Counter";
+
+import MyComponent1 from "./MyComponent1";
 
 
 export default function App() {
   return (
     <div>
-      <Counter />
+      <MyComponent1 />
       
     </div>
   )
