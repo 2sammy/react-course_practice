@@ -1,10 +1,10 @@
-import Counter from "./Counter"
-import MyComponent from "./MyComponent"
+import ColorPicker from "./ColorPicker";
+
 
 export default function App() {
   return (
     <div>
-      <MyComponent />
+      <ColorPicker />
       
     </div>
   )
