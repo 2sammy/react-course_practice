@@ -134,7 +134,7 @@ li{
   padding: 12px;
   font-size: 1.4rem;
 
-}  */
+}  
 
 body{
   background-image: url(assets/profile.jpg);
@@ -163,4 +163,10 @@ body{
   font-family: monospace;
   text-align: center;
   text-shadow: 3px 3px 5px hsl(0, 0%, 0%, 0.75);
+}
+*/
+
+.box {
+  border: 3px solid;
+  padding: 25px;
 }

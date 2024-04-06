@@ -1,12 +1,9 @@
-import DigitalClock from "./digital-clock/DigitalClock";
-
-
-
+import ComponentA from "./ComponentA";
 
 export default function App() {
   return (
     <div>
-      <DigitalClock/>
+      <ComponentA/>
 
       
     </div>
